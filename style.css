@@ -1,0 +1,155 @@
+*{
+font-family: 'Merriweather', serif;
+font-size: medium;
+}
+
+
+
+.header {
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+
+}
+
+.Signup {
+display: flex;
+justify-content: center;
+
+}
+.hr{
+    border-style: double;
+}
+
+.fieldset{
+    border: none;
+}
+
+.Get {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+display: flex;
+justify-content: center;
+}
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type]{
+display: flex;
+justify-content: center;
+
+}
+
+#name{
+    padding-right: 150px;
+}
+
+#email{
+    padding-right: 150px;
+}
+
+#Phone{
+    padding-right: 150px;
+}
+
+#Street {
+    padding-right: 150px;
+}
+
+#City{
+    padding-right: 150px;
+}
+
+
+#State {
+    display: flex;
+    justify-content: left;
+    padding-right: 220px;
+}
+
+.fieldset2{
+    border: none;
+}
+
+#HTML-News{
+    display: inline;
+}
+
+#CSS-News{
+    display: inline;
+}
+
+#Javascript-News{
+    display: inline;
+}
+
+.Newsletter {
+    display: flex;
+    justify-content: left;
+}
+
+#HTML {
+    display: inline;
+}
+
+#Plain-text {
+    display: inline;
+}
+
+
+
+.text {
+    padding: 25px 120px 40px 25px;
+}
+
+.Signup2 {
+    margin-left: 18px;
+    padding: 25px 140px 25px 130px;
+    background-color: aqua;
+}
+
+
+.copyright {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.hr{
+    width:50%;
+    margin:0 auto;
+
+}
+
+.hr2{
+    width:50%;
+    margin:0 auto;
+}
+
+}
+
+
+
+

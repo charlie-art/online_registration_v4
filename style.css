@@ -213,6 +213,11 @@ justify-content: center;
     font-size: x-small;
 }
 
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
 }
 
 

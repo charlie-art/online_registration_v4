@@ -3,6 +3,10 @@ font-family: 'Merriweather', serif;
 font-size: medium;
 }
 
+input:focus{
+    background: yellow;
+}
+
 
 
 .header {
@@ -23,6 +27,7 @@ justify-content: center;
 
 .fieldset{
     border: none;
+
 }
 
 .Get {
@@ -56,6 +61,7 @@ justify-content: center;
 
 #name{
     padding-right: 150px;
+    
 }
 
 #email{
@@ -112,7 +118,7 @@ justify-content: center;
 
 
 
-.text {
+#textarea  {
     padding: 25px 120px 40px 25px;
 }
 
@@ -199,23 +205,19 @@ justify-content: center;
     margin-bottom: 10px;
 }
 
-.text {
+#textarea {
     padding: 25px 250px 40px 25px;
 }
 
 .Signup2 {
-    margin-left: 18px;
-    padding: 25px 270px 25px 130px;
+    margin-left: 11px;
+    padding-left: 180px;
+    padding-right: 225px;
     background-color: aqua;
 }
 
 .Get{
     font-size: x-small;
-}
-
-.red-input:focus {
-  background: yellow;
-  color: red;
 }
 
 }
